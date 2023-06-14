@@ -1,0 +1,95 @@
+header
+{
+    margin: 0 auto;
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+@font-face {
+    font-family: "john";
+    src: url("font/OpenSans-VariableFont_wdth,wght");
+}
+
+header a{
+    font-size: 16px;
+    color: black; 
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main
+    {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+.logo{
+    margin: 0 auto; 
+    padding-top: 10%;
+    
+}
+
+td {
+    font-size: 100px;
+    font-family: "john";
+}
+
+form{
+    margin: 0 auto;
+}
+
+.search{
+    width: 530px;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.search:hover{
+    
+}
+
+input.go{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 500px;
+    padding: 0 auto;
+}
+
+input.go:placeholder-shown{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.button input{
+    border-radius: 35px;
+    height: 40px;
+    padding: 12px;
+    border: white;
+    background: lightgray;
+}
+
+.button input:hover{
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+    height: 80px;
+    width: 160px;
+}
+
+header input{
+    background-color: #1a53ff;
+    height: 40px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+}
+
+header input:hover{
+    background-color:#0040ff;
+    cursor: pointer;
+}
